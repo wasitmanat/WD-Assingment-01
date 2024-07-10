@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+
+/* Headers Start */
+.title{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    padding: 30px 150px;
+    
+}
+.title p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.headcontainer .dr{
+
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 30px 25px ;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+.banner{
+background-image: url('../assets/Hero-bg.png');
+background-size: cover;
+border:2px dashed gray;
+max-width: auto;
+margin: 0 auto;
+height: 800px;
+margin-top:15px;
+display:flex;
+flex-direction: column;
+justify-content:center ;
+align-items: center;
+margin-bottom: 90px;
+}
+.headline{
+    font-size:30px;
+    text-align: center;
+}
+.banner_content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.banner_content p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+#gp{
+    margin-bottom: 40px;
+}
+.btn1{
+    font-family: monospace;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(13, 19, 33);
+    border: 15px;
+    border-radius: 10px;
+    padding: 23px 35px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+/* Headers end */
+
+/* box1 start here */
+.box-container{
+    background-color: rgba(13, 19, 33, 0.02);   
+    max-width: 1140px;
+    margin:0px auto;
+}
+.first-box{
+
+    text-align: center;
+}
+
+.second-box{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.second-box-one{
+    margin-right: 98px;
+}
+
+.sec-box-btn{
+    width: 150px;
+    height: 48px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+}
+
+.second-box-three{
+    display: flex;
+    justify-content: center;
+    margin: 50px 150px;
+}
+
+.third-box-1{
+    margin-left: 98px; 
+}
+/* box1 ends here */
+
+/* box2 starts here */
+.box-container2{
+  
+    max-width:1140px;
+    margin: 0px auto;
+}
+.inspiration{
+    text-align: center;
+    margin: 50px 150px;
+}
+.inspiration-size{
+    text-align: center;
+    font-size: 32px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+.video-1{
+    border-radius: 16px;
+}
+/* box2 ends here */
+/* current page starts here  */
+.div-section{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-section-1{
+    padding: 20px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.dark-1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: rgb(13, 19, 33);
+}
+.div-section-2{
+    padding: 20px;
+    border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.div-section-3{
+    padding: 20px;
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+/* current page ends here  */
+
+/* next target starts */
+
+.skill-heading{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.text{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.skill1{
+    display: flex;
+    margin: 0px auto;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.skill2{
+    display: flex;
+    margin: 0px auto;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.skill3{
+    display:flex; 
+    margin: 0px auto;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+/* next target ends */
+
+/* support section start here  */
+.support-section{
+    display: flex;
+    justify-content: center;
+    background:rgba(0,0,0,0.5);
+    background-image:url(/assets/handshake.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width:1440px ;
+    height: 150x;
+    border:5px  solid #fafafa;
+    border-radius: 20px;
+    background-blend-mode: darken;
+   
+}
+.support-section-mid{
+    color: rgb(255, 255, 255);
+    padding: 64px 48px 64px 48px;
+    text-align: center;
+}
+.support-section-mid p{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.input-text{
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.btn-part-last{
+    width: 548px;
+    height: 57px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    border-radius: 6px;
+    text-align: left;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+div ul li{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;   
+}
+
+.submit-part{
+    width: 120px;
+    height: 58px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(13, 19, 33);;
+    padding: 17px 20px 17px 20px;
+    font-weight: 600;
+}
+/* support section ends here  */
+
+/* footer starts here  */
+.footer-side{
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+/* footer ends here  */
